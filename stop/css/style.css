@@ -1,0 +1,303 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 20px;
+  background-color: #f7f7f7;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+p {
+  margin: 0;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0;
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.header {
+  margin: 10px 0;
+  display: flex;
+  min-height: 60px;
+}
+
+.page-header__navigation {
+  margin: 10px 0;
+}
+
+.main-nav {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.main-nav__item {
+  background-color: #6c65c8;
+  font-size: 18px;
+}
+
+.main-nav__link {
+  display: block;
+  padding: 10px 9px;
+  color: #ffffff;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.main-nav__link:hover {
+  background-color: #9adb94;
+  color: #6c65c8;
+  transition: 0.5s;
+}
+
+.main-nav__item {
+  list-style: none;
+}
+
+.site-information__container,
+.call-community__container {
+  margin: 10px 0;
+}
+
+.site-information__about,
+.call-community__live,
+.about-sma__theme {
+  font-size: 30px;
+  color: #6c65c8;
+  font-weight: bold;
+}
+
+.site-information__tale,
+.call-community__tale {
+  margin: 10px 25px;
+}
+
+.site-information__report,
+.call-community__report,
+.news__text,
+.events__text,
+.about-sma__explain,
+.about-sma__clarify,
+.type__clarify,
+.about-sma__help,
+.medication__nusinersen {
+  font-family: Vollkorn;
+}
+
+.slider-info__block {
+  position: relative;
+  height: 200px;
+}
+
+.btn-slider__left {
+  position: absolute;
+  left: 23px;
+  width: 50px;
+  height: 100%;
+  background-color: rgba(104, 65, 212, 0.5);
+  border: 0;
+  cursor: pointer;
+}
+
+.btn-slider__right {
+  position: absolute;
+  right: 23px;
+  width: 50px;
+  height: 100%;
+  background-color: rgba(104, 65, 212, 0.5);
+  border: 0;
+  cursor: pointer;
+}
+
+.btn-slider__left::before {
+  content: "";
+  position: absolute;
+  width: 25px;
+  height: 2px;
+  background-color: #ffffff;
+  transform: rotate(45deg);
+  left: 12px;
+  bottom: 46%;
+}
+
+.btn-slider__left::after {
+  content: "";
+  position: absolute;
+  width: 25px;
+  height: 2px;
+  background-color: #ffffff;
+  transform: rotate(-45deg);
+  left: 12px;
+  top: 45%;
+}
+
+.btn-slider__right::before {
+  content: "";
+  position: absolute;
+  width: 25px;
+  height: 2px;
+  background-color: #ffffff;
+  transform: rotate(-45deg);
+  right: 12px;
+  bottom: 46%;
+}
+
+.btn-slider__right::after {
+  content: "";
+  position: absolute;
+  width: 25px;
+  height: 2px;
+  background-color: #ffffff;
+  transform: rotate(45deg);
+  right: 12px;
+  top: 45%;
+}
+
+.slider-info__informations {
+  position: absolute;
+  bottom: 0px;
+  margin: 0 73px;
+  color: #ffffff;
+  font-size: 18px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.slider-info__images {
+  margin: 0px 25px;
+}
+
+.footer-container {
+  background-color: #6c65c8;
+  min-height: 80px;
+  color: #ffffff;
+  margin-top: 20px;
+}
+
+.footer-logotype {
+  display: flex;
+  margin: 10px 25px
+  ;
+}
+
+.news-events__flex {
+  display: flex;
+  margin: 0px 25px;
+  justify-content: space-between;
+}
+
+.news__content,
+.events__content {
+  background-color: #6c65c8;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 10px 9px;
+  font-weight: bold;
+  font-size: 18px;
+  color: white;
+  text-align: center;
+}
+
+.news,
+.events {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.news__block,
+.events__block {
+  padding: 10px;
+  border: 2px solid #6c65c8;
+  border-top: none;
+}
+
+.news__announcement,
+.events__announcement {
+  color: #6c65c8;
+  padding: 10px 0px;
+  font-size: 20px;
+}
+
+.about-sma__block {
+  margin: 20px 25px;
+}
+
+.about-sma__explanation,
+.about-sma__content {
+  padding: 10px;
+  border: 2px solid #6c65c8;
+  border-radius: 20px 20px 20px 0px;
+}
+
+.type {
+  color: #6c65c8;
+  margin: 10px 0;
+}
+
+.about-sma__types ul {
+  list-style-type: none;
+}
+
+.about-sma__help {
+  margin: 10px 0px;
+}
+
+.about-sma__helpes {
+  list-style-type: square;
+}
+
+.medication__block {
+  margin: 20px 25px;
+  padding: 10px;
+  border: 2px solid #6c65c8;
+  border-radius: 20px 20px 20px 0px;
+}
+
+.history {
+  display: grid;
+  grid-gap: 25px;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.story-image__block {
+  width: 250px;
+}
+
+.story-img {
+  width: 250px;
+}
+
+.story-information__block {
+  margin-left: 25px;
+}
+
+.story-name {
+  color: #6c65c8;
+}
+
+.story-name,
+.story-birthday,
+.story-disease,
+.story-city {
+  margin: 10px 0;
+}
